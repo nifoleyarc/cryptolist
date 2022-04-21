@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Lora", sans-serif;
+    background: #FFFFFF;
+}
+
+span {
+    font-family: 'Lora', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+
+.container {
+     display: flex;
+     align-items: center;
+  justify-content: center;
+  
+}
+
+.channel_logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.cryptocurrencies_list {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+    width: 390px;
+    height: 800px;
+    -webkit-box-shadow: 0px 15px 31px 5px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 15px 31px 5px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 15px 31px 5px rgba(34, 60, 80, 0.2);
+    
+}
+
+@media screen and (max-width: 800px) {
+    .item {
+        background-color: rgba(0, 0, 0, 0.021);
+    }
+}
+
+.text1 {
+    margin: 40px 25px auto 25px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.text2 {
+    margin: 10px 25px auto 25px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.text3 {
+    margin: 40px 25px auto 25px;
+    text-align: center;
+    color: rgb(123, 123, 123);
+    font-size: 16px;
+}
+
+.wallet_name {
+    margin: 25px auto 0px;
+    font-size: 20px;
+}
+
+.network_type {
+    margin: 10px auto;
+}
+
+.type_color {
+    color: rgb(255, 0, 0);
+}
+.network_type {
+    font-size: 18px;
+}
+
+.qrcode {
+    margin: 10px auto 0px;
+}
+
+.wallet_address {
+    margin: 25px auto 0px;
+}
+
+.wallet_container {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+    width: 390px;
+    height: 724px;
+    -webkit-box-shadow: 0px 15px 31px 5px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 15px 31px 5px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 15px 31px 5px rgba(34, 60, 80, 0.2);
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    margin-bottom: 25px;
+    border: 2px solid rgba(0, 0, 0, 0.085);
+}
+
+.item:hover {
+    background-color: rgba(0, 0, 0, 0.150);
+    transition: 0.1s ease-out;
+    cursor: pointer;
+}
+
+.element:focus {
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.item:active {
+    transform: scale(0.95);
+}
+
+.item1 {
+    margin-top: 25px;
+}
+
+.chevronicon {
+    margin: 5px 0px 0px 10px;
+    color: grey;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.chevronicon:hover {
+    color: black;
+    transition: 0.3s ease-out;
+    cursor: pointer;
+}
+
+.chevronicon:active {
+    transform: scale(0.7);
+}
+
+.CopyIconc {
+    fill: rgb(70, 70, 70);
+}
+
+.CheckIconc {
+    color: rgb(0, 0, 0);
+}
+
+.madeby {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.tglink {
+    text-decoration: none;
+    color: #0a0180;
+}
+
+@media screen and (min-width: 900px) {
+    .tglink {
+        background-image: linear-gradient(
+          to right,
+          #4e42ff,
+          #211990 50%,
+          #000 50%
+        );
+        background-size: 200% 100%;
+        background-position: -100%;
+        display: inline-block;
+        padding: 5px 0;
+        position: relative;
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        transition: all 0.3s ease-in-out;
+      }
+      
+      .tglink:before {
+        content: '';
+        background: #585858;
+        display: block;
+        position: absolute;
+        bottom: -3px;
+        left: 0;
+        width: 0;
+        height: 3px;
+        transition: all 0.3s ease-in-out;
+      }
+      
+      .tglink:hover {
+       background-position: 0;
+      }
+      
+      .tglink:hover::before {
+        width:100%;
+      } 
+}
